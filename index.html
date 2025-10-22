@@ -1,20 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>copy netflix</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Netflix — Clone</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header class="nav">
-       <div class="nav__inner">
-      <div class="logo">MyFlix</div>
-      <nav class="nav__links">
-        <a href="#">Accueil</a>
-        <a href="#">Séries</a>
-        <a href="#">Films</a>
-        <a href="#">Ma liste</a>
-      </nav>
-    </header>
-</body>
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <div style="display: flex; align-items: center;">
+        <div class="logo">MY NETFLIX</div>
+        <nav class="nav__links">
+          <a href="#">Accueil</a>
+          <a href="#">Séries</a>
+          <a href="#">Films</a>
+          <a href="#">Nouveautés</a>
+          <a href="#">Ma liste</a>
+        </nav>
+      </div>
+      <div class="nav__right">
+        <input class="search" type="search" placeholder="recherche" aria-label="Recherche" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+  <img src="image.png" alt="Mon titre" class="hero__logo">
+  <p class="hero__desc">Ta description ici</p>
+  <div class="hero__buttons">
+    <button class="btn btn--primary">▶ Lecture</button>
+    <button class="btn">ⓘ Plus d'infos</button>
+  </div>
+</div>
+      <div class="hero__fade"></div>
+    </section>
+
+    <section class="row">
+      <h2 class="row__title">Tendances actuelles</h2>
+      <div class="row__container">
+        <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=170&fit=crop&q=80" alt="Film" />
+      </div>
+    </section>
+
+    <section class="row">
+      <h2 class="row__title">Séries populaires</h2>
+      <div class="row__container">
+        <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=170&fit=crop&q=80" alt="Série" />
+        <img src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=170&fit=crop&q=80" alt="Série" />
+        <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?w=300&h=170&fit=crop&q=80" alt="Série" />
+        <img src="https://images.unsplash.com/photo-1574267432644-f00ebc62a962?w=300&h=170&fit=crop&q=80" alt="Série" />
+        <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=170&fit=crop&q=80" alt="Série" />
+        <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=170&fit=crop&q=80" alt="Série" />
+      </div>
+    </section>
+
+    <section class="row">
+      <h2 class="row__title">Sélection Netflix</h2>
+      <div class="row__container">
+        <img src="https://images.unsplash.com/photo-1560109947-543149eceb16?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=170&fit=crop&q=80" alt="Film" />
+        <img src="https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=300&h=170&fit=crop&q=80" alt="Film" />
+      </div>
+    </section>
+  </main>
+
+ </body>
 </html>
