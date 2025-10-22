@@ -310,4 +310,3 @@ body {
   .search { width: clamp(120px, 40vw, 200px); }
   .logo { font-size: clamp(1rem, 5vw, 1.25rem); }
 }
-}
