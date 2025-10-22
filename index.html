@@ -7,22 +7,42 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="nav" id="nav">
-    <div class="nav__inner">
-      <div style="display: flex; align-items: center;">
-        <div class="logo">MY NETFLIX</div>
-        <nav class="nav__links">
-          <a href="#">Accueil</a>
-          <a href="#">Séries</a>
-          <a href="#">Films</a>
-          <a href="#">Nouveautés</a>
-          <a href="#">Ma liste</a>
-        </nav>
-      </div>
-      <div class="nav__right">
-        <input class="search" type="search" placeholder="recherche" aria-label="Recherche" />
-      </div>
+  <header class="nav">
+  <div class="nav__inner">
+    <div class="logo">STREAMFLIX</div>
+
+    <nav class="nav__links">
+      <a href="#">Accueil</a>
+      <a href="#">Séries</a>
+      <a href="#">Films</a>
+      <a href="#">Nouveautés</a>
+      <a href="#">Ma liste</a>
+    </nav>
+
+    <div class="nav__right">
+      <button class="btn btn--cta">Connexion</button>
     </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" style="--hero-img: url('image.png')">
+    <div class="hero__content">
+      <h1 class="hero__title">Bienvenue sur StreamFlix !</h1>
+      <p class="hero__desc">
+        Regardez vos films et séries préférés quand vous voulez.<br>
+        Inscrivez-vous maintenant, 1 mois d’essai offert !
+      </p>
+
+      <form class="hero__form" onsubmit="return false;">
+        <input type="email" placeholder="Votre email" aria-label="Votre email">
+        <button class="btn btn--primary">Commencer maintenant</button>
+      </form>
+    </div>
+    <div class="hero__fade"></div>
+  </section>
+
   </header>
 
   <main>
@@ -56,7 +76,7 @@
         <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=170&fit=crop&q=80" alt="Série" />
         <img src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=300&h=170&fit=crop&q=80" alt="Série" />
         <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?w=300&h=170&fit=crop&q=80" alt="Série" />
-        <img src="https://images.unsplash.com/photo-1574267432644-f00ebc62a962?w=300&h=170&fit=crop&q=80" alt="Série" />
+        
         <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=170&fit=crop&q=80" alt="Série" />
         <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=170&fit=crop&q=80" alt="Série" />
       </div>
