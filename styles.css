@@ -238,12 +238,7 @@ body {
   pointer-events: none;
 }
 
-/* Mobile */
-@media (max-width: 720px) {
-  .hero { min-height: 70vh; padding: calc(var(--nav-h) + 16px) 16px 80px; }
-  .hero__form { flex-direction: column; }
-  .hero__input, .btn { width: 100%; }
-}
+
 /* Boutons */
 .btn {
   background: rgba(255,255,255,0.25);
