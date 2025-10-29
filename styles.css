@@ -312,4 +312,70 @@ body {
 }
 
 
+/* ===== RESPONSIVE MOBILE ===== */
+
+/* Tablettes et petits écrans */
+@media (max-width: 768px) {
+  /* On cache les liens de navigation et on ajuste les espacements */
+  .nav__links {
+    display: none;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .search {
+    width: 140px;
+    font-size: 0.85rem;
+  }
+
+  .hero {
+    min-height: 60vh;
+    padding: calc(var(--nav-h) + 16px) 4% 72px;
+  }
+
+  .hero__title {
+    font-size: 1.8rem;
+  }
+
+  .hero__desc {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .row__container img {
+    width: 200px;
+    height: 113px;
+  }
+}
+
+/* Très petits écrans (smartphones ≤ 480px) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1rem;
+  }
+
+  /* On masque la barre de recherche pour gagner de la place */
+  .search {
+    display: none;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+  }
+
+  .hero__desc {
+    font-size: 0.9rem;
+  }
+
+  .row__container img {
+    width: 160px;
+    height: 90px;
+  }
+}
 
